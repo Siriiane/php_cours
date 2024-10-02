@@ -1,0 +1,129 @@
+<?php 
+
+/*
+1. Qu'est-ce qu'un tableau indexé en PHP ? 
+
+B) Un tableau où les clés sont des entiers.
+
+
+
+2. Comment accède-t-on au premier élément d'un tableau indexé $array ?
+
+ B) $array[0]
+
+
+
+ 3. Quelle est la différence principale entre un tableau associatif et un tableau indexé ?
+
+B) Les tableaux associatifs utilisent des chaînes de caractères comme clés.
+
+
+
+4. Comment ajouter une clé "age" avec la valeur 25 à un tableau associatif $person ?
+
+A) $person['age'] = 25;
+
+
+5. Que retournera l'expression suivante : count($array); où $array = [1, 2, 3]; ?
+ A) 3
+
+
+
+6. Comment accéder à l'élément "ville" d'un tableau associatif $address ?
+
+C) $address['ville']
+
+
+
+7. Quel type de tableau est $array = ['nom' => 'Jean', 'age' => 30]; ?
+
+B) Tableau associatif
+
+
+
+8. Comment parcourt-on un tableau associatif avec une boucle foreach ?
+
+A) foreach ($array as $value) AVEC CLE 
+B) foreach ($array as $key => $value) SANS CLE 
+
+
+
+9. Qu'est-ce qu'un tableau multidimensionnel ?
+
+B) Un tableau contenant des tableaux en tant qu'éléments.
+
+
+10. Comment accède-t-on à la valeur "Paris" dans le tableau multidimensionnel suivant :
+php
+Copier le code
+$cities = [
+    'France' => ['Paris', 'Lyon', 'Marseille'],
+    'Italie' => ['Rome', 'Milan', 'Naples']
+];
+
+C) $cities['France'][0]
+
+
+
+11. Comment ajoute-t-on un nouvel élément "Bordeaux" à la liste des villes en France dans le tableau ci-dessus ?
+
+A) $cities['France'][] = 'Bordeaux';
+
+
+
+12. Quel est le résultat de l'expression suivante : count($cities['Italie']); ?
+
+B) 3
+
+
+13. Que retournera array_keys($array); pour un tableau associatif ?
+A) Un tableau avec toutes les valeurs.
+B) Un tableau avec toutes les clés.
+C) Une chaîne de caractères contenant toutes les clés.
+D) Une chaîne de caractères contenant toutes les valeurs.
+
+
+14. Comment supprimer une clé "nom" d'un tableau associatif $person ?
+A) unset($person['nom']);
+B) $person['nom'] = null;
+C) $person->nom = null;
+D) delete $person['nom'];
+
+
+15. Comment fusionne-t-on deux tableaux en PHP ?
+A) merge($array1, $array2);
+B) array_merge($array1, $array2);
+C) $array1 + $array2;
+D) $array1 += $array2;
+
+
+16. Quelle fonction est utilisée pour vérifier si une clé existe dans un tableau associatif ?
+
+B) array_key_exists()
+
+
+
+17. Quel type de tableau est le suivant : $array = [1, 'nom' => 'Jean', 3, 4]; ?
+
+D) Tableau mixte
+
+
+18. Comment accède-t-on au dernier élément d'un tableau $array ?
+
+B) $array[count($array) - 1]
+C) $array[end($array)]
+
+
+
+19. Comment inverser l'ordre des éléments dans un tableau en PHP ?
+
+A) array_reverse($array);
+
+
+
+20. Quel est le résultat de count($array) pour un tableau multidimensionnel $array sans spécifier de paramètre COUNT_RECURSIVE ?
+
+B) Le nombre d'éléments au premier niveau du tableau.
+
+
+*/
